@@ -3,8 +3,9 @@
 
 curFile = open("echo.txt")
 
-curLine = curFile.read()
+for curLine in curFile:
+    print(curLine)
 
 curFile.close()
 
-print(curLine)
+#print(curLine)
